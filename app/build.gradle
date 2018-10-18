@@ -30,11 +30,11 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:24.+'
-    //    compile project(':usbhostconn')
-    compile files('libs/usbhost.jar')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:24.+'
+    //    implementation project(':usbhostconn')
+    implementation files('libs/usbhost.jar')
 }
 
 task copyJniLibs(type: Copy) {
