@@ -18,6 +18,7 @@ import java.util.TimerTask;
 
 /**
  * Created by xu.huang.zf on 2017/5/16.
+ * Edited by spencercap on 2018/10/18.
  */
 
 public class NoloVrAndroidDemo2 extends Activity implements View.OnClickListener {
