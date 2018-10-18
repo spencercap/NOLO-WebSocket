@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:text="USB属性：" />
+            android:text="USB Attributes：" />
         <TextView
             android:id="@+id/usbDescribtextView"
             android:layout_width="match_parent"
@@ -26,7 +26,7 @@
             android:paddingBottom="5dp"
             android:textSize="14sp"
             android:layout_marginTop="5dp"
-            android:hint="usb 设备属性" />
+            android:hint="USB Device properties" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -39,7 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:text="发送数据：" />
+                android:text="send data：" />
 
             <EditText
                 android:id="@+id/senddataeditText"
@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/sharkey_library_jilintong_rect"
                 android:textSize="14sp"
-                android:hint="此处输入需要发送的数据"
+                android:hint="Enter the data you want to send here"
                 android:gravity="left|top"
                 android:inputType="textMultiLine"
                 android:layout_weight = "8">
@@ -66,7 +66,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
-                    android:text="建立连接"
+                    android:text="establish connection"
                     />
 
                 <Button
@@ -75,7 +75,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:textSize="14sp"
-                    android:text="发送数据"
+                    android:text="send data"
                     />
 
                 <Button
@@ -84,7 +84,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:textSize="14sp"
-                    android:text="断开连接"
+                    android:text="Disconnect"
                     />
 
                 <Button
@@ -118,17 +118,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:text="接收数据："
-                />
+                android:text="Receive data："/>
 
             <Button
                 android:id="@+id/usbdataclear"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft = "200dp"
-                android:text="清空"
+                android:text="Empty USB"
                 android:textSize="18sp" />
-            "
         </LinearLayout>
         <ScrollView
             android:layout_width="match_parent"

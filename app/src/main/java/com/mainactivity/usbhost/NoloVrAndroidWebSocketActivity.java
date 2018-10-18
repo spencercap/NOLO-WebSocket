@@ -21,7 +21,7 @@ import java.util.TimerTask;
  * Edited by spencercap on 2018/10/18.
  */
 
-public class NoloVrAndroidDemo2 extends Activity implements View.OnClickListener {
+public class NoloVrAndroidWebSocketActivity extends Activity implements View.OnClickListener {
 
     private TextView tv_api;
     private Button bt_init;
@@ -42,7 +42,7 @@ public class NoloVrAndroidDemo2 extends Activity implements View.OnClickListener
     private final int NoloDeviceDisconnceted = 2;
     private Timer mtime;
     //    private TimerTask timerTask;
-//    private FrameLayout fl_frame;
+    //    private FrameLayout fl_frame;
     private TextView tv_H_P_X;
     private TextView tv_H_P_Y;
     private TextView tv_H_P_Z;
@@ -159,8 +159,8 @@ public class NoloVrAndroidDemo2 extends Activity implements View.OnClickListener
 
     TimerTask timerTask = new TimerTask() {
         public void run() {
-            //每次需要执行的代码放到这里面。
-//            Log.i("NoloVrAndroidDemo2", "TimerTask");
+            /* THIS CODE IS EXECUTED ALL THE TIME - 每次需要执行的代码放到这里面。*/
+//            Log.i("NoloVrAndroidWebSocketActivity", "TimerTask");
             final Nolo_Pose mnolo_pose_Hmd = usbCustomTransfer.getPoseByDeviceType(0);
             final Nolo_Pose mnolo_pose_Left = usbCustomTransfer.getPoseByDeviceType(1);
             final Nolo_Pose mnolo_pose_Right = usbCustomTransfer.getPoseByDeviceType(2);

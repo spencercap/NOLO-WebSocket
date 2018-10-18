@@ -9,8 +9,6 @@ android {
         minSdkVersion 18
         versionCode 1
         versionName "1.0"
-
-
     }
     buildTypes {
         release {
@@ -19,20 +17,12 @@ android {
         }
     }
 
-//    sourceSets{
-//        main{
-//            jniLibs.srcDirs = ['libs']
-//            jni.srcDirs = ['src/main/jni']
-//        }
-//    }
-
 }
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     testImplementation 'junit:junit:4.12'
     implementation 'com.android.support:appcompat-v7:24.+'
-    //    implementation project(':usbhostconn')
     implementation files('libs/usbhost.jar')
 }
 

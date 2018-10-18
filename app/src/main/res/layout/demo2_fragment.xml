@@ -14,7 +14,7 @@
             android:layout_height="25dp"
             android:background="#000000"
             android:gravity="center"
-            android:text="Nolo 设备数据显示"
+            android:text="Nolo Device data display"
             android:textColor="#ffffff"
             android:textSize="36px" />
 
@@ -24,7 +24,7 @@
                 android:layout_margin="4dp"
                 android:background="#000000"
                 android:gravity="center"
-                android:text="名称"
+                android:text="name"
                 android:textColor="#ffffff" />
 
             <TextView
